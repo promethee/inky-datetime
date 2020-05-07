@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from DateImg import DateImg
-from waveshare_epd import epd2in13
+from waveshare import epd2in13
 
 epd = epd2in13.EPD()
 epd.init(epd.lut_full_update)
